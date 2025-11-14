@@ -1,0 +1,129 @@
+/* ========================================= */
+/* SEU DESAFIO DE CSS RESOLVIDO! */
+/* ========================================= */
+
+/* 1. Estilização Geral (body) */
+/* Aplica-se a todo o corpo da página. */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    padding: 20px;
+    line-height: 1.6; /* Aumenta o espaçamento entre as linhas para melhor leitura */
+}
+
+/* 2. Estilização dos Blocos de Conteúdo (classes) */
+/* Aplica-se a todas as seções de conteúdo. */
+.conteudo {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px; /* Adiciona bordas arredondadas */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra suave */
+}
+
+/* 3. Estilização de Títulos e Parágrafos (tags e IDs) */
+/* Seletores de tag e id para estilização específica. */
+h1, h2 {
+    text-align: center;
+}
+
+h1 {
+    color: #2c3e50; /* Cor escura para o título principal */
+}
+
+#paragrafo-destaque {
+    color: #3498db; /* Cor azul para o parágrafo de destaque */
+    font-style: italic; /* Texto em itálico */
+}
+
+/* 4. Estilização da Lista (ul e li) */
+/* Estilização da lista de tarefas. */
+.lista-tarefas {
+    list-style: none; /* Remove os marcadores padrão da lista */
+    padding: 0;
+}
+
+.lista-tarefas li {
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+.item-concluido {
+    background-color: #d1e7dd; /* Fundo verde claro para itens concluídos */
+    text-decoration: line-through; /* Risca o texto */
+    color: #555;
+}
+
+.item-pendente {
+    background-color: #f8d7da; /* Fundo vermelho claro para itens pendentes */
+}
+
+
+/* 5. Estilização da Tabela */
+/* Formatação da tabela de preços. */
+table {
+    width: 100%;
+    border-collapse: collapse; /* Remove o espaçamento entre as bordas das células */
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+.preco {
+    color: green;
+    font-weight: bold;
+}
+
+
+/* 6. Estilização do Formulário */
+/* Estilização dos campos e botões do formulário. */
+.campo-form {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block; /* Garante que o label fique em uma nova linha */
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box; /* Inclui o padding na largura total */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.btn-primario {
+    background-color: #3498db;
+    color: white;
+}
+
+.btn-secundario {
+    background-color: #bdc3c7;
+    color: #333;
+}
+
+button:hover {
+    opacity: 0.8; /* Diminui a opacidade ao passar o mouse */
+}
+
+
+/* 7. Estilização do Rodapé (footer) */
+/* Formatação da seção de rodapé. */
+footer {
+    text-align: center;
+    color: #777;
+    font-size: 0.9em;
+    padding: 20px;
+    border-top: 1px solid #ddd;
+    margin-top: 20px;
+}

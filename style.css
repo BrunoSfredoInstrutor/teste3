@@ -1,0 +1,145 @@
+/* ================================================= */
+/* CSS GERAL */
+/* ================================================= */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+    color: #333;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    color: #2c3e50;
+    text-align: center;
+}
+
+button {
+    padding: 10px 15px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #3498db;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+.section {
+    padding: 20px;
+    border-bottom: 2px solid #ecf0f1;
+    margin-bottom: 20px;
+}
+
+/* ================================================= */
+/* CSS ESPECÍFICO */
+/* ================================================= */
+
+/* Alternador de Temas */
+.tema-claro {
+    background-color: #f4f4f4;
+    color: #333;
+}
+.tema-escuro {
+    background-color: #1a1a1a;
+    color: #f4f4f4;
+}
+.tema-escuro .container {
+    background-color: #2c2c2c;
+}
+.tema-escuro h1, .tema-escuro h2 {
+    color: #ecf0f1;
+}
+
+/* Alternador de Imagens */
+#imagem {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    display: block;
+    margin: 0 auto 15px;
+}
+
+/* Contador de Cliques */
+#contador {
+    font-size: 2em;
+    color: #e74c3c;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* Barra de Progresso */
+#barra-progresso {
+    width: 100%;
+    height: 25px;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    margin-top: 10px;
+    overflow: hidden;
+}
+#progresso-atual {
+    height: 100%;
+    width: 0%;
+    background-color: #2ecc71;
+    transition: width 0.5s ease;
+}
+
+/* Validador de Senhas */
+#senha-input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    box-sizing: border-box;
+}
+#senha-feedback {
+    margin-top: 5px;
+    font-size: 0.9em;
+}
+.valida { color: green; }
+.invalida { color: red; }
+
+/* Exibidor de Mensagens */
+#mensagem-exibida {
+    background-color: #ecf0f1;
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 15px;
+    font-style: italic;
+}
+
+/* Quiz Interativo */
+.pergunta {
+    margin-bottom: 20px;
+}
+.opcoes button {
+    display: block;
+    width: 100%;
+    margin-bottom: 5px;
+    text-align: left;
+}
+.quiz-feedback {
+    margin-top: 10px;
+    font-weight: bold;
+}
+.correta {
+    background-color: #27ae60 !important;
+}
+.incorreta {
+    background-color: #c0392b !important;
+}

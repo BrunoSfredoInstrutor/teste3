@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toolkit Interativo-teste</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Meu Toolkit Interativo</h1>
+
+        <div class="section">
+            <h2>Alternador de Textos</h2>
+            <p id="texto-alternavel">Este é o texto inicial.</p>
+            <button id="alternar-texto-btn">Alternar Texto</button>
+        </div>
+
+        <div class="section">
+            <h2>Alternador de Imagens</h2>
+            <img id="imagem" src="imagem1.jpg" alt="Imagem 1">
+            <button id="alternar-imagem-btn">Alternar Imagem</button>
+        </div>
+
+        <div class="section">
+            <h2>Alternador de Temas</h2>
+            <p>Clique no botão para alternar entre o tema claro e escuro.</p>
+            <button id="alternar-tema-btn">Ativar Tema Escuro</button>
+        </div>
+
+        <div class="section">
+            <h2>Contador de Cliques</h2>
+            <p>O botão abaixo já foi clicado:</p>
+            <span id="contador">0</span>
+            <p>vezes.</p>
+            <button id="contador-btn">Clique para Contar</button>
+        </div>
+
+        <div class="section">
+            <h2>Barra de Progresso</h2>
+            <div id="barra-progresso">
+                <div id="progresso-atual"></div>
+            </div>
+            <button id="avancar-progresso-btn">Avançar Progresso</button>
+        </div>
+
+        <div class="section">
+            <h2>Validador de Senhas</h2>
+            <p>Digite "senha123" para testar.</p>
+            <input type="password" id="senha-input" placeholder="Digite a senha">
+            <button id="validar-senha-btn">Validar Senha</button>
+            <p id="senha-feedback"></p>
+        </div>
+
+        <div class="section">
+            <h2>Exibidor de Mensagens</h2>
+            <button id="msg1-btn">Mostrar Mensagem 1</button>
+            <button id="msg2-btn">Mostrar Mensagem 2</button>
+            <p id="mensagem-exibida"></p>
+        </div>
+
+        <div class="section">
+            <h2>Quiz Interativo</h2>
+            <div id="quiz"></div>
+            <button id="quiz-finalizar-btn">Finalizar Quiz</button>
+            <div id="resultado-quiz"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

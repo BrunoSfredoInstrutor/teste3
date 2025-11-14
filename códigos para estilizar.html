@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercícios de CSS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Minha Página de Treino de CSS</h1>
+        <p>Um playground para praticar seletores e propriedades de estilo.</p>
+    </header>
+
+    <main>
+        <section class="conteudo">
+            <h2>Sobre CSS</h2>
+            <p id="paragrafo-destaque">CSS, ou Cascading Style Sheets, é a linguagem usada para estilizar a aparência de uma página web. Ele descreve como os elementos HTML devem ser exibidos na tela.</p>
+            <p>Com CSS, você pode controlar as cores, fontes, espaçamento, layouts, e muito mais. É o que transforma uma página simples em um design visualmente atraente.</p>
+        </section>
+        
+        <section class="conteudo">
+            <h2>Minha Lista de Tarefas</h2>
+            <ul class="lista-tarefas">
+                <li class="item-concluido">Estudar HTML</li>
+                <li class="item-pendente">Aprender CSS</li>
+                <li class="item-pendente">Praticar JavaScript</li>
+            </ul>
+        </section>
+
+        <section class="conteudo">
+            <h2>Tabela de Preços</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Produto</th>
+                        <th>Preço</th>
+                        <th>Disponibilidade</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Laptop</td>
+                        <td class="preco">R$ 3500</td>
+                        <td>Em estoque</td>
+                    </tr>
+                    <tr>
+                        <td>Mouse</td>
+                        <td class="preco">R$ 150</td>
+                        <td>Esgotado</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section class="conteudo">
+            <h2>Formulário de Contato</h2>
+            <form action="#" method="get">
+                <div class="campo-form">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome">
+                </div>
+                <div class="campo-form">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email">
+                </div>
+                <button type="submit" class="btn-primario">Enviar</button>
+                <button type="reset" class="btn-secundario">Limpar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Meus Exercícios de CSS</p>
+    </footer>
+
+</body>
+</html>
